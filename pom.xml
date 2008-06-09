@@ -5,11 +5,12 @@
 	<parent>
 		<artifactId>lifelog</artifactId>
 		<groupId>com.methodknowledgy</groupId>
-		<version>0.0.12-SNAPSHOT</version>
+		<version>0.0.12</version>
 	</parent>
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.methodknowledgy</groupId>
 	<artifactId>lifelog-web</artifactId>
+	<version>0.0.1</version>
 	<packaging>war</packaging>
 	<name>LifeLog Web Application</name>
 	<description />
@@ -80,12 +81,12 @@
 		<dependency>
 			<groupId>com.methodknowledgy</groupId>
 			<artifactId>lifelog-commons</artifactId>
-			<version>${project.version}</version>
+			<version>${project.parent.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>com.methodknowledgy</groupId>
 			<artifactId>lifelog-commons</artifactId>
-			<version>${project.version}</version>
+			<version>${project.parent.version}</version>
 			<classifier>sources</classifier>
 			<optional>true</optional>
 		</dependency>
@@ -93,7 +94,7 @@
 		<dependency>
 			<groupId>com.methodknowledgy</groupId>
 			<artifactId>lifelog-core</artifactId>
-			<version>${project.version}</version>
+			<version>${project.parent.version}</version>
 			<scope>runtime</scope>
 		</dependency>
 
