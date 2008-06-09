@@ -7,7 +7,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.methodknowledgy</groupId>
 	<artifactId>lifelog-web</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<name>LifeLog Web Application</name>
 	<description />
@@ -226,7 +226,7 @@
 	</profiles>
 
 	<scm>
-		<developerConnection>scm:svn:http://svn2.assembla.com/svn/lifelog/LifeLog-Web/tags/lifelog-web-0.0.1</developerConnection>
+		<developerConnection>scm:svn:http://svn2.assembla.com/svn/lifelog/LifeLog-Web/trunk</developerConnection>
 	</scm>
 
 </project>
