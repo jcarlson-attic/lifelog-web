@@ -58,12 +58,6 @@
 			<name>MethodKnowledgy Maven Repository</name>
 			<url>http://maven.methodknowledgy.com/</url>
 		</repository>
-		<repository>
-			<id>gwt-maven</id>
-			<url>
-				http://gwt-maven.googlecode.com/svn/trunk/mavenrepo/
-			</url>
-		</repository>
 	</repositories>
 	<pluginRepositories>
 		<pluginRepository>
@@ -240,5 +234,11 @@
 			</properties>
 		</profile>
 	</profiles>
+
+	<scm>
+		<developerConnection>
+			scm:svn:http://svn2.assembla.com/svn/lifelog/LifeLog-Application/trunk
+		</developerConnection>
+	</scm>
 
 </project>
