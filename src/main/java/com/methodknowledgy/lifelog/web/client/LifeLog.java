@@ -6,9 +6,8 @@ import com.google.gwt.user.client.ui.RootPanel;
 
 public class LifeLog implements EntryPoint {
 
-    public void onModuleLoad() {
+	public void onModuleLoad() {
         RootPanel.get().add(new HTML("<h1>Hello, world!</h1>"));
         
     }
-
 }
