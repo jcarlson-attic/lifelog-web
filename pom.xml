@@ -102,6 +102,18 @@
 		</dependency>
 
 		<dependency>
+			<groupId>com.googlecode.gwtx</groupId>
+			<artifactId>GWTx</artifactId>
+			<version>20070605</version>
+		</dependency>
+
+		<dependency>
+			<groupId>hsqldb</groupId>
+			<artifactId>hsqldb</artifactId>
+			<version>1.8.0.7</version>
+		</dependency>
+
+		<dependency>
 			<groupId>net.sf.gwt-widget</groupId>
 			<artifactId>gwt-widgets</artifactId>
 			<version>0.2.0</version>
