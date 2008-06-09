@@ -5,7 +5,7 @@ import java.util.Collection;
 import com.google.gwt.user.client.rpc.AsyncCallback;
 import com.methodknowledgy.lifelog.commons.domain.Attribute;
 
-public interface AsyncAttributeDao {
+public interface AttributeDaoAsync {
 
 	void getAll(AsyncCallback<Collection<Attribute>> callback);
 	

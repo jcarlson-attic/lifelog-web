@@ -6,19 +6,19 @@
 	<entry-point class='com.methodknowledgy.lifelog.web.client.LifeLog'/>
 	
 	<replace-with class="com.methodknowledgy.lifelog.web.client.remote.impl.RpcAttributeDaoImpl">
-		<when-type-is class="com.methodknowledgy.lifelog.web.client.remote.impl.AttributeDaoImpl" />
+		<when-type-is class="com.methodknowledgy.lifelog.web.client.remote.AttributeDaoAsync" />
 	</replace-with>
 	
 	<replace-with class="com.methodknowledgy.lifelog.web.client.remote.impl.RpcAttributeTypeDaoImpl">
-		<when-type-is class="com.methodknowledgy.lifelog.web.client.remote.impl.AttributeTypeDaoImpl" />
+		<when-type-is class="com.methodknowledgy.lifelog.web.client.remote.AttributeTypeDaoAsync" />
 	</replace-with>
 	
 	<replace-with class="com.methodknowledgy.lifelog.web.client.remote.impl.RpcEntryDaoImpl">
-		<when-type-is class="com.methodknowledgy.lifelog.web.client.remote.impl.EntryDaoImpl" />
+		<when-type-is class="com.methodknowledgy.lifelog.web.client.remote.EntryDaoAsync" />
 	</replace-with>
 	
 	<replace-with class="com.methodknowledgy.lifelog.web.client.remote.impl.RpcEntryTypeDaoImpl">
-		<when-type-is class="com.methodknowledgy.lifelog.web.client.remote.impl.EntryTypeDaoImpl" />
+		<when-type-is class="com.methodknowledgy.lifelog.web.client.remote.EntryTypeDaoAsync" />
 	</replace-with>
 	
 </module>

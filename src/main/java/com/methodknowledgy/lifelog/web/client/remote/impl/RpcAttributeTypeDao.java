@@ -1,4 +1,4 @@
-package com.methodknowledgy.lifelog.web.client.remote.rpc;
+package com.methodknowledgy.lifelog.web.client.remote.impl;
 
 import com.google.gwt.user.client.rpc.RemoteService;
 import com.google.gwt.user.client.rpc.RemoteServiceRelativePath;

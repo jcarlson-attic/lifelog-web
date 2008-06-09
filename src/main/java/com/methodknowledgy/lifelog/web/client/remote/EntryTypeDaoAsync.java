@@ -5,7 +5,7 @@ import java.util.Collection;
 import com.google.gwt.user.client.rpc.AsyncCallback;
 import com.methodknowledgy.lifelog.commons.domain.EntryType;
 
-public interface AsyncEntryTypeDao {
+public interface EntryTypeDaoAsync {
 
 	void getAll(AsyncCallback<Collection<EntryType>> callback);
 	
