@@ -5,7 +5,6 @@
 		<version>1.0.2</version>
 	</parent>
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.methodknowledgy</groupId>
 	<artifactId>lifelog-web</artifactId>
 	<version>0.0.4-SNAPSHOT</version>
 	<packaging>war</packaging>
