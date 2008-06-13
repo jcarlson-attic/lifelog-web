@@ -20,6 +20,10 @@
 		<gwt.version>1.5.0-rc1</gwt.version>
 	</properties>
 
+	<scm>
+		<developerConnection>scm:svn:http://svn2.assembla.com/svn/lifelog/LifeLog-Web/trunk</developerConnection>
+	</scm>
+
 	<build>
 		<plugins>
 			<plugin>
@@ -250,9 +254,5 @@
 			</properties>
 		</profile>
 	</profiles>
-
-	<scm>
-		<developerConnection>scm:svn:http://svn2.assembla.com/svn/lifelog/LifeLog-Web/trunk</developerConnection>
-	</scm>
 
 </project>
