@@ -1,13 +1,13 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<parent>
-		<artifactId>lifelog</artifactId>
 		<groupId>com.methodknowledgy</groupId>
-		<version>0.0.15</version>
+		<artifactId>pom-parent</artifactId>
+		<version>1.0.2</version>
 	</parent>
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.methodknowledgy</groupId>
 	<artifactId>lifelog-web</artifactId>
-	<version>0.0.2-SNAPSHOT</version>
+	<version>0.0.3</version>
 	<packaging>war</packaging>
 	<name>LifeLog Web Application</name>
 	<description />
@@ -18,10 +18,11 @@
 		<gwt.runUrl>${project.artifactId}/index.html</gwt.runUrl>
 		<gwt.target>com.methodknowledgy.lifelog.web.LifeLog</gwt.target>
 		<gwt.version>1.5.0-rc1</gwt.version>
+		<lifelog.version>0.0.15</lifelog.version>
 	</properties>
 
 	<scm>
-		<developerConnection>scm:svn:http://svn2.assembla.com/svn/lifelog/LifeLog-Web/trunk</developerConnection>
+		<developerConnection>scm:svn:http://svn2.assembla.com/svn/lifelog/LifeLog-Web/tags/lifelog-web-0.0.3</developerConnection>
 	</scm>
 
 	<build>
@@ -96,12 +97,12 @@
 		<dependency>
 			<groupId>com.methodknowledgy</groupId>
 			<artifactId>lifelog-commons</artifactId>
-			<version>${project.parent.version}</version>
+			<version>${lifelog.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>com.methodknowledgy</groupId>
 			<artifactId>lifelog-commons</artifactId>
-			<version>${project.parent.version}</version>
+			<version>${lifelog.version}</version>
 			<classifier>sources</classifier>
 			<optional>true</optional>
 		</dependency>
@@ -109,7 +110,7 @@
 		<dependency>
 			<groupId>com.methodknowledgy</groupId>
 			<artifactId>lifelog-core</artifactId>
-			<version>${project.parent.version}</version>
+			<version>${lifelog.version}</version>
 			<scope>runtime</scope>
 		</dependency>
 
